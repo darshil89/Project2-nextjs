@@ -78,7 +78,6 @@ export const getServerSideProps = async (context) => {
   ) {
     return {
       props: { hasError: true },
-
       // notFound: true,
       // redirect:{
       //   destination: '/errorpage'
