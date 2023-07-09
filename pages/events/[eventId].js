@@ -22,7 +22,7 @@ function EventDetailPage(props) {
         <title>{event.title}</title>
         <meta
           name="description"
-          content="Finad a lot of events that will help you to evolve"
+          content="Find a lot of events that will help you to evolve"
         />
       </Head>
       <EventSummary title={event.title} />
